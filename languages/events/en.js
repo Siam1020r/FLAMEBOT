@@ -13,13 +13,13 @@ module.exports = {
 			session2: "noon",
 			session3: "afternoon",
 			session4: "evening",
-			leaveType1: "left the group",
-			leaveType2: "was kicked from the group"
+			leaveType1: "😕...-1 𝐃𝐚𝐧𝐬 𝐥𝐞 𝐠𝐫𝐨𝐮𝐩𝐞 𝐦𝐚𝐢𝐬 𝐛𝐨𝐧 𝐥𝐚 𝐯𝐢𝐞 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐞 ...😪",
+			leaveType2: "𖤍..𝐓𝐮 𝐝𝐞́𝐫𝐚𝐧𝐠𝐞𝐚𝐢𝐭 𝐭𝐫𝐨𝐩 𝐚𝐥𝐨𝐫𝐬 𝐝𝐞́𝐠𝐚𝐠𝐞 🚮..𖤍"
 		}
 	},
 	logsbot: {
 		text: {
-			title: "====== Bot logs ======",
+			title: "====== Bot 𖤍 logs ======",
 			added: "\n✅\nEvent: bot has been added to a new group\n- Added by: %1",
 			kicked: "\n❌\nEvent: bot has been kicked\n- Kicked by: %1",
 			footer: "\n- User ID: %1\n- Group: %2\n- Group ID: %3\n- Time: %4"
