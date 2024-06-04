@@ -19,7 +19,7 @@ module.exports = {
     const userData = await usersData.get(event.senderID);
 
     if (!["small", "big"].includes(betType)) {
-      return message.reply("🙊 | Choose 'small' or 'big'.");
+      return message.reply("😕 | Choose 'small' or 'big'.");
     }
 
     if (!Number.isInteger(betAmount) || betAmount < 50) {
@@ -27,7 +27,7 @@ module.exports = {
     }
 
     if (betAmount > userData.money) {
-      return message.reply("❌ | You don't have enough money to make that bet.");
+      return message.reply("❌ | Tu  n'a pas assez d'argent pour faire ce pari |❌.");
     }
 
     const dice = [1, 2, 3, 4, 5, 6];
@@ -49,11 +49,11 @@ module.exports = {
       const winAmount = 2 * betAmount;
       userData.money += winAmount;
       await usersData.set(event.senderID, userData);
-      return message.reply(`(\\_/)\n( •_•)\n// >[ ${resultString} ]\n\n🎉 | Congratulations! You won ${winAmount}!`);
+      return message.reply(`(\\_/)\n( •_•)\n// >[ ${resultString} ]\n\n🎉 | Congratulations! 😶| 𝐖𝐞𝐜𝐡 𝐭'𝐚𝐬 𝐠𝐚𝐠𝐧𝐞́ |😇 ${winAmount}!`);
     } else {
       userData.money -= betAmount;
       await usersData.set(event.senderID, userData);
-      return message.reply(`(\\_/)\n( •_•)\n// >[ ${resultString} ]\n\n😿 | You lost ${betAmount}.`);
+      return message.reply(`(\\_/)\n( •_•)\n// >[ ${resultString} ]\n\n🤣| 𝐓'𝐚𝐬 𝐩𝐞𝐫𝐝𝐮 |😂 ${betAmount}.`);
     }
   }
 };
