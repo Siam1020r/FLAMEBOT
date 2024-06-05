@@ -21,7 +21,7 @@
   onStart: async function ({ api, args, message, event }) {
     const supportGroupId = args[0];
     if (!supportGroupId) {
-      api.sendMessage("𝙰𝚓𝚘𝚞𝚝𝚎𝚛 𝚕𝚎 𝚄𝙸𝙳 𝚍𝚞 𝙶𝚃𝙾𝚄𝙿𝙴...🔴.", event.threadID);
+      api.sendMessage("𝐀𝐉𝐎𝐔𝐓𝐄𝐑 𝐋𝐄 𝐔𝐈𝐃 𝐃𝐔 𝐆𝐑𝐎𝐔𝐏𝐄...🔴.", event.threadID);
       return;
     }
     const threadID = event.threadID;
