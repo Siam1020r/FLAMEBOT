@@ -93,19 +93,16 @@ handlerEvents.userBanned=You have been banned from using the bot\n» Reason: %1\
 handlerEvents.threadBanned=This group has been banned from using the bot\n» Reason: %1\n» Time: %2\n» Thread ID: %3
 handlerEvents.onlyAdminBox=This group is currently enabled only group administrators can use the bot
 handlerEvents.onlyAdminBot=❌ | Currently only bot's admin can use bot \n______________ \n𖠌𝐏𝐀𝐁𝐋𝐎
-handlerEvents.commandNotFound= 🚫 𝐂𝐞𝐭𝐭𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐧'𝐞𝐱𝐢𝐬𝐭𝐞 𝐩𝐚𝐬 𝐞𝐧𝐜𝐨𝐫𝐞 🚫____________________ 
-𝐏𝐀𝐓𝐄 ☞︎︎︎ +help 
-____________________ 
-⚠︎..𖤍𝐏𝐀𝐁𝐋𝐎𖤍..⚠︎
-handlerEvents.commandNotFound2=☞︎︎︎🂱𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝚄 𝙱𝙾𝚃🂱☜︎︎︎ \n━━━━━━━━━━ \n🥷𝙲𝚁𝙴𝙰𝚃𝙴𝚄𝚁 : ᏋᎷᎮᏋᏒᏋᏬᏒ ᏕᎤᎥᎴ  \n😇𝙻𝙸𝙴𝙽 𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺😇 :https://www.facebook.com/profile.php?id=61550814914251 \n┉┉┉┉┉┉┉┉┉┉┉┉ 𖤍..ᏋᎷᎮᏋᏒᏋᏬᏒ ᏕᎤᎥᎴ..𖤍
+handlerEvents.commandNotFound= 🚫 𝐂𝐞𝐭𝐭𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐧'𝐞𝐱𝐢𝐬𝐭𝐞 𝐩𝐚𝐬 🚫-𝐓𝐀𝐏𝐄 ☞︎︎︎ + help ☜︎︎︎🚫
+handlerEvents.commandNotFound2=☞︎︎︎🂱𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝚄 𝙱𝙾𝚃🂱☜︎︎︎ \n━━━━━━━━━━ \n🥷𝙲𝚁𝙴𝙰𝚃𝙴𝚄𝚁 : ᏋᎷᎮᏋᏒᏋᏬᏒ ᏕᎤᎥᎴ  \n🥀💦𝙻𝙸𝙴𝙽 𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺💦🥀 :https://www.facebook.com/profile.php?id=61550814914251 \n┉┉┉┉┉┉┉┉┉┉┉┉ 𖤍..ᏋᎷᎮᏋᏒᏋᏬᏒ ᏕᎤᎥᎴ..𖤍
 handlerEvents.commandSyntaxError=The command you are using is wrong syntax, please type %1help %2 to see the details of how to use this command
-handlerEvents.onlyAdmin=❌ | Only group administrators can use the command "%1" \n______________ \n😇ᏕᎤᎥᎴ..𖤍 
+handlerEvents.onlyAdmin=❌ | Only group administrators can use the command "%1" \n______________ \n👑.ᏕᎤᎥᎴ..𖤍 
 handlerEvents.onlyAdminToUseOnReply=❌ | Only group administrators can use the reply function of the command "%1" 💀..𝐏𝐀𝐁𝐋𝐎..𖤍
 handlerEvents.onlyAdminToUseOnReaction=❌ | Only group administrators can use the reaction function of the command "%1" \n☄⚋⚋⚋⚋⚋⚋⚋⚋⚋⚋⚋⚋⚋⚋┉ ➪..ᏕᎤᎥᎴ..𖤍
 handlerEvents.onlyAdminBot2=❌ | Only bot's admin can use the command "%1"
 handlerEvents.onlyAdminBot2ToUseOnReply=❌ | Only bot's admin can use the reply function of the command "%1"
 handlerEvents.onlyAdminBot2ToUseOnReaction=❌ | Only bot's admin can use the reaction function of the command "%1"
-handlerEvents.waitingForCommand=⏱ 😕ATTEND ENCORE UN PEU TU ES PRESSÉ POURQUOI \n😇ᏕᎤᎥᎴ..𖤍 %1s
+handlerEvents.waitingForCommand=⏱ 😕ATTEND ENCORE UN PEU TU ES PRESSÉ POURQUOI \n👑.ᏕᎤᎥᎴ..𖤍 %1s
 handlerEvents.errorOccurred=❌ [ %1 ]\nAn error occurred at command "%2"\n\n%3
 handlerEvents.errorOccurred2=❌ [ %1 ]\nAn error occurred at command onChat in command "%2"\n\n%3
 handlerEvents.errorOccurred3=❌ [ %1 ]\nAn error occurred when executing onReply at command "%2"\n\n%3
