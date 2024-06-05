@@ -5,7 +5,7 @@ module.exports = {
     name: "stats",
     aliases: ["time"],
     version: "1.0",
-    author: "OtinXSandip",
+    author: "Saïd zoungrana",
     role: 0,
     shortDescription: {
       en: "stats",
@@ -41,7 +41,7 @@ module.exports = {
 
       const timeStart = Date.now();
       await api.sendMessage({
-        body: "🥷𝐃𝐔𝐑𝐄́🥷𝐃𝐄 𝐑𝐄𝐒𝐈𝐒𝐓𝐀𝐍𝐂𝐄🥷",
+        body: "➪𝐌𝐀 𝐉𝐎𝐔𝐑𝐍𝐄́𝐄 ✈︎",
       }, event.threadID);
 
       const ping = Date.now() - timeStart;
@@ -56,7 +56,7 @@ module.exports = {
       const attachment = await global.utils.getStreamFromURL(imgURL); api.sendMessage({
         body: `☆☆𝐏𝐀𝐁𝐋𝐎☆☆ \────────\
 
-🥷 | 𝐌𝐀 𝐂𝐎𝐔𝐑𝐒𝐄﹞\  
+🥷 | 𝐌𝐀 𝐂𝐎𝐔𝐑𝐒𝐄 |🥷﹞\  
 ${uptimeString}
 
 \──────── \
@@ -71,11 +71,14 @@ ${uptimeString}
 
 \──────── \
 
-🏂 | 𝘛𝘰𝘵𝘢𝘭 𝘜𝘴𝘦𝘳𝘴﹞\allUsers.length}\──────── \
+👑 | 𝘛𝘰𝘵𝘢𝘭 𝘜𝘴𝘦𝘳𝘴﹞\allUsers.length}\──────── \
 
 🏢 | 𝘛𝘰𝘵𝘢𝘭 𝘛𝘩𝘳𝘦𝘢𝘥𝘴﹞\llThreads.length}\| 𝐀𝐈𝐍𝐄 ﹞: 
 
-𖤍☞︎︎︎${ping}☜︎︎︎𖤍ms\──────── \ 𝐒𝐓𝐀𝐓𝐔𝐒:
+𖤍${ping}𖤍𝐌𝐒𖤍
+\──────── \
+
+ 𝐒𝐓𝐀𝐓𝐔𝐒:
  
 ${pingStatus}`,
         attachment: attachment,
