@@ -93,8 +93,7 @@ handlerEvents.userBanned=You have been banned from using the bot\n» Reason: %1\
 handlerEvents.threadBanned=This group has been banned from using the bot\n» Reason: %1\n» Time: %2\n» Thread ID: %3
 handlerEvents.onlyAdminBox=This group is currently enabled only group administrators can use the bot
 handlerEvents.onlyAdminBot=❌ | Currently only bot's admin can use bot \n______________ \n𖠌𝐏𝐀𝐁𝐋𝐎
-handlerEvents.commandNotFound= 🚫 𝐂𝐞𝐭𝐭𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐧'𝐞𝐱𝐢𝐬𝐭𝐞 𝐩𝐚𝐬 𝐞𝐧𝐜𝐨𝐫𝐞 🚫
-____________________ 
+handlerEvents.commandNotFound= 🚫 𝐂𝐞𝐭𝐭𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐧'𝐞𝐱𝐢𝐬𝐭𝐞 𝐩𝐚𝐬 𝐞𝐧𝐜𝐨𝐫𝐞 🚫____________________ 
 𝐏𝐀𝐓𝐄 ☞︎︎︎ +help 
 ____________________ 
 ⚠︎..𖤍𝐏𝐀𝐁𝐋𝐎𖤍..⚠︎
