@@ -20,10 +20,10 @@ module.exports = {
 
 	langs: {
 		en: {
-			turnedOn: 'Il est temps de vous clasher à la maniere 😈ᏕᎤᎥᎴ😈!',
-			turnedOff: 'MDR Tu as tellement peur de moi que tu me met off fils de pute🖕!',
+			turnedOn: 'Il est temps de vous clasher à la maniere SAÏD 😈!',
+			turnedOff: 'Tu as tellement peur de moi que tu me met off fils de pute🖕!',
 			chatting: 'Already Chatting with 𝗟𝗢𝗙𝗧...',
-			error: 't'a appris à écrire ou toi ?🤣'
+			error: 'Tu ne sais pas écrire?🙂'
 		}
 	},
 
@@ -72,4 +72,4 @@ async function getMessage(yourMessage, langCode) {
 		throw new Error(res.data.success);
 
 	return res.data.message;
-      }
+			}
