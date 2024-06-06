@@ -27,7 +27,7 @@ module.exports = {
     }
 
     if (betAmount > userData.money) {
-      return message.reply("❌ | Tu  n'a pas assez d'argent pour faire ce pari |❌.");
+      return message.reply("❌ | Tu  n'a pas assez de fric pour faire ce pari |❌.");
     }
 
     const dice = [1, 2, 3, 4, 5, 6];
@@ -49,7 +49,7 @@ module.exports = {
       const winAmount = 2 * betAmount;
       userData.money += winAmount;
       await usersData.set(event.senderID, userData);
-      return message.reply(`(\\_/)\n( •_•)\n// >[ ${resultString} ]\n\n🎉👑| 𝐖𝐞𝐜𝐡 𝐭'𝐚𝐬 𝐠𝐚𝐠𝐧𝐞́ |👑 ${winAmount}$`);
+      return message.reply(`(\\_/)\n( •_•)\n// >[ ${resultString} ]\n\n👑| 𝐖𝐞𝐜𝐡 𝐭'𝐚𝐬 𝐠𝐚𝐠𝐧𝐞́ |👑 ${winAmount}$`);
     } else {
       userData.money -= betAmount;
       await usersData.set(event.senderID, userData);
