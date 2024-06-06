@@ -3,7 +3,7 @@ module.exports = {
     name: "sicbo",
     aliases: ["sic"],
     version: "1.0",
-    author: "Loid Butter",
+    author: "S...D Z....A",
     countDown: 10,
     role: 0,
     shortDescription: "Play Sicbo, the oldest gambling game",
@@ -49,7 +49,7 @@ module.exports = {
       const winAmount = 2 * betAmount;
       userData.money += winAmount;
       await usersData.set(event.senderID, userData);
-      return message.reply(`(\\_/)\n( •_•)\n// >[ ${resultString} ]\n\n🎉 | Congratulations! 😶| 𝐖𝐞𝐜𝐡 𝐭'𝐚𝐬 𝐠𝐚𝐠𝐧𝐞́ |😇 ${winAmount}!`);
+      return message.reply(`(\\_/)\n( •_•)\n// >[ ${resultString} ]\n\n🎉😶| 𝐖𝐞𝐜𝐡 𝐭'𝐚𝐬 𝐠𝐚𝐠𝐧𝐞́ |😇 ${winAmount}!`);
     } else {
       userData.money -= betAmount;
       await usersData.set(event.senderID, userData);
