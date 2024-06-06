@@ -2,11 +2,11 @@ module.exports = {
 	// You can customize the language here or directly in the command files
 	onlyadminbox: {
 		description: "turn on/off only admin box can use bot",
-		guide: "   {pn} [on | off]",
+		guide: "   {pn} [𝐎𝐍 | 𝐎𝐅𝐅]",
 		text: {
-			turnedOn: "Turned on the mode only admin of group can use bot",
-			turnedOff: "Turned off the mode only admin of group can use bot",
-			syntaxError: "Syntax error, only use {pn} on or {pn} off"
+			turnedOn: "Turned 𝐎𝐍 the mode only admin of group can use bot",
+			turnedOff: "Turned 𝐎𝐅𝐅 the mode only admin of group can use bot",
+			syntaxError: "Syntax error, only use {pn} 𝐎𝐍 or {pn} 𝐎𝐅𝐅"
 		}
 	},
 	adduser: {
@@ -37,12 +37,12 @@ module.exports = {
 		}
 	},
 	adminonly: {
-		description: "turn on/off only admin can use bot",
-		guide: "{pn} [on | off]",
+		description: "turn 𝐎𝐍/𝐎𝐅𝐅 only admin can use bot",
+		guide: "{pn} [𝐎𝐍 | 𝐎𝐅𝐅]",
 		text: {
-			turnedOn: "Turned on the mode only admin can use bot",
-			turnedOff: "Turned off the mode only admin can use bot",
-			syntaxError: "Syntax error, only use {pn} on or {pn} off"
+			turnedOn: "Turned 𝐎𝐍 the mode only admin can use bot",
+			turnedOff: "Turned 𝐎𝐅𝐅 the mode only admin can use bot",
+			syntaxError: "Syntax error, only use {pn} 𝐎𝐍 or {pn} 𝐎𝐅𝐅"
 		}
 	},
 	all: {
