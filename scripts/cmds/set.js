@@ -18,9 +18,9 @@ module.exports = {
   },
 
   onStart: async function ({ args, event, api, usersData }) {
-    const permission = ["61550814914251"];
+    const permission = ["61550814914251","61550342601194"];
   if (!permission.includes(event.senderID)) {
-    api.sendMessage("𝐈𝐃𝐈𝐎𝐓..😕 𝐎𝐍 𝐓𝐎𝐔𝐂𝐇𝐄 𝐏𝐀𝐒 𝐀𝐔 𝐅𝐑𝐈𝐂 𝐃𝐄 👑ᏋᎷᎮᏋᏒᏋᏬᏒ ᏕᎤᎥᎴ👑.", event.threadID, event.messageID);
+    api.sendMessage("𝐈𝐃𝐈𝐎𝐓..😕 𝐎𝐍 𝐓𝐎𝐔𝐂𝐇𝐄 𝐏𝐀𝐒 𝐀𝐔 𝐅𝐑𝐈𝐂 𝐃𝐄𝐒 👑𝐀𝐃𝐌𝐈𝐒👑.", event.threadID, event.messageID);
     return;
   }
     const query = args[0];
