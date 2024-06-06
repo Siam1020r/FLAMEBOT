@@ -21,7 +21,7 @@ module.exports = {
 	langs: {
 		en: {
 			turnedOn: 'Il est temps de vous clasher à la maniere 😈ᏕᎤᎥᎴ😈!',
-			turnedOff: 'Tu as tellement peur de moi que tu me met off fils de pute🖕!',
+			turnedOff: 'MDR Tu as tellement peur de moi que tu me met off fils de pute🖕!',
 			chatting: 'Already Chatting with 𝗟𝗢𝗙𝗧...',
 			error: 't'a appris à écrire ou toi ?🤣'
 		}
