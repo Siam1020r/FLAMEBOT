@@ -40,10 +40,10 @@ module.exports = {
 			content: "\n\nContent:\n─────────────────\n%1\n─────────────────\nReply this message to send message to user",
 			success: "Sent your message to %1 admin successfully!\n%2",
 			failed: "An error occurred while sending your message to %1 admin\n%2\nCheck console for more details",
-			reply: "📍 Reply from admin %1:\n─────────────────\n%2\n─────────────────\nReply this message to continue send message to admin",
-			replySuccess: "Sent your reply to admin successfully!",
-			feedback: "📝 Feedback from user %1:\n- User ID: %2%3\n\nContent:\n─────────────────\n%4\n─────────────────\nReply this message to send message to user",
-			replyUserSuccess: "Sent your reply to user successfully!",
+			reply: "👑| 𝐑𝐞𝐩𝐨𝐧𝐬𝐞 𝐝𝐞 𝐥'𝐚𝐝𝐦𝐢𝐧 %1:\n─────────────────\n%2\n─────────────────\n𝐑𝐞𝐩𝐨𝐧𝐝𝐬 𝐝𝐞 𝐭'𝐨𝐧 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐭𝐮 𝐩𝐞𝐮𝐭 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐞𝐫 𝐚 𝐜𝐨𝐬𝐬𝐞́ 𝐚𝐯𝐞𝐜 𝐦𝐨𝐧 ☞︎︎︎𝐀𝐃𝐌𝐈𝐍",
+			replySuccess: "🕓| 𝐌𝐨𝐧 𝐚𝐝𝐦𝐢𝐧 𝐯𝐞𝐫𝐫𝐚 𝐭𝐨𝐧 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐝𝐚𝐧𝐬 𝐪𝐮𝐞𝐥𝐪𝐮𝐞 𝐦𝐢𝐧𝐮𝐭𝐞",
+			feedback: "🥷| 𝐌𝐄𝐒𝐒𝐀𝐆𝐄 𝐃𝐄 𝐋'𝐔𝐒𝐄𝐑 %1:\n- User ID: %2%3\n\nContent:\n─────────────────\n%4\n─────────────────\nReply this message to send message to user",
+			replyUserSuccess: "📩| 𝐓'𝐨𝐧 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐚 𝐞́𝐭𝐞́ 𝐞𝐧𝐯𝐨𝐲𝐞́ 𝐚𝐯𝐞𝐜 𝐬𝐮𝐜𝐜𝐞̀𝐬",
 			noAdmin: "Bot has no admin at the moment"
 		}
 	},
@@ -56,9 +56,9 @@ module.exports = {
 		if (config.adminBot.length == 0)
 			return message.reply(getLang("noAdmin"));
 		const senderName = await usersData.getName(senderID);
-		const msg = "==📨️ CALL ADMIN 📨️=="
-			+ `\n- User Name: ${senderName}`
-			+ `\n- User ID: ${senderID}`
+		const msg = "==📨𝐂𝐀𝐋𝐋𝐀𝐃📬𝐏𝐀𝐁𝐋𝐎📨=="
+			+ `\n- User Name: 💦${senderName}💦`
+			+ `\n- User ID: 𖤍${senderID}𖤍`
 			+ (isGroup ? getLang("sendByGroup", (await threadsData.get(threadID)).threadName, threadID) : getLang("sendByUser"));
 
 		const formMessage = {
