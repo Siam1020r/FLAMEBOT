@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "❦ঔৣ....𝐏𝐀𝐁𝐋𝐎....ঔৣ❦";
+const doNotDelete = "❦➪..𝐏𝐀𝐁𝐋𝐎..𖤍❦";
 /** 
 * @author NTKhang
 * @author: do not delete it
@@ -140,7 +140,7 @@ module.exports = {
     }
 
     const categoryName = value.config.category || "No Category";
-    const circularSymbol = "\n🥷✨☞"; // Add your desired circular symbol here
+    const circularSymbol = "\n🥷💦☞"; // Add your desired circular symbol here
 
     if (!categoryCommands.has(categoryName)) {
       categoryCommands.set(categoryName, []);
@@ -150,7 +150,7 @@ module.exports = {
   }
 
   for (const [category, commands] of categoryCommands) {
-    msg += `✰⚔️${category}⚔️✰\n⚫${commands.join(" ")}⚫\n`;
+    msg += `✰⚔️${category}⚔️✰\n🥷${commands.join(" ")}🥷\n`;
   }
 
   message.reply(getLang("help2", msg, commands.size, prefix, doNotDelete));
