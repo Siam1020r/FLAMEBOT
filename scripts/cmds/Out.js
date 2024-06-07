@@ -1,6 +1,6 @@
 module.exports = {
 	config: {
-		name: "out","dégage",
+		name: "out",
 		version: "1.0",
 		author: "XyryllPanget",
 		countDown: 5,
