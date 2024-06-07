@@ -1,4 +1,4 @@
- module.exports = {
+module.exports = {
 	config: {
 		name: "out","dégage",
 		version: "1.0",
