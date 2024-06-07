@@ -15,6 +15,6 @@ onChat: async function({
     message,
     getLang
 }) {
-    if (event.body && event.body.toLowerCase() == "salut") return message.reply("𖤍𝐒𝐀𝐋𝐔𝐓𖤍  𝐦𝐨𝐢 𝐜'𝐞𝐬𝐭 -𝐏𝐀𝐁𝐋𝐎- 𝐣𝐞 𝐬𝐮𝐢𝐬 𝐥𝐚 𝐩𝐨𝐮𝐫 𝐫𝐞𝐩𝐨𝐧𝐝𝐫𝐞 𝐚 𝐭𝐨𝐮𝐭 𝐯𝐨𝐬 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬 ☞︎︎︎𖤍☜︎︎︎");
+    if (event.body && event.body.toLowerCase() == "salut") return message.reply("𖤍𝐒𝐀𝐋𝐔𝐓𖤍  𝐦𝐨𝐢 𝐜'𝐞𝐬𝐭 -𝐏𝐀𝐁𝐋𝐎- 𝐣𝐞 𝐬𝐮𝐢𝐬 𝐥𝐚 𝐩𝐨𝐮𝐫 𝐫𝐞𝐩𝐨𝐧𝐝𝐫𝐞 𝐚 𝐭𝐨𝐮𝐭 𝐭'𝐞𝐬 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬 ☞︎︎︎𖤍☜︎︎︎");
 }
 };
