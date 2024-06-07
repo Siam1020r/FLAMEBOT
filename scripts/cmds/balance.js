@@ -1,4 +1,4 @@
-module.exports = {
++cmd install bal.js module.exports = {
 	config: {
 		name: "balance",
 		aliases: ["bal"],
@@ -25,11 +25,7 @@ module.exports = {
 			moneyOf: "%1 đang có %2$"
 		},
 		en: {
-			money: "𝗧𝘂 𝗮𝘀
-━━━━━━━━❪🏦❫━━━━━━━━
- 1%$
-━━━━━━━━❪🏦❫━━━━━━━
-  𝘀𝘂𝗿 𝘁𝗼𝗻 𝗰𝗼𝗺𝗽𝘁𝗲 🏦",
+			money: "𝐓𝐔 𝐀𝐒➪ %1$ 𝐒𝐔𝐑 𝐓𝐎𝐍 𖤍𝐂𝐎𝐌𝐏𝐓𝐄𖤍",
 			moneyOf: "%1 𝙰 %2$"
 		}
 	},
