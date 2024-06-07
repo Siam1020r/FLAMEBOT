@@ -11,7 +11,7 @@ module.exports = {
 		},
 		category: 'Box Chat',
 		guide: {
-			en: '{p}kickall on/off'
+			en: '{p}kickall 𝐎𝐍/𝐎𝐅𝐅'
 		}
 	},
 
@@ -29,7 +29,7 @@ module.exports = {
 
 		if (args[0] === 'off') {
 			this.kickOffMembers[event.threadID] = listUserID;
-			return api.sendMessage('» Kickall feature turned off. Members stored.', event.threadID);
+			return api.sendMessage('» 𝐤𝐢𝐜𝐤𝐚𝐥𝐥 𝐟𝐞𝐚𝐭𝐮𝐫𝐞 𝐭𝐮𝐫𝐧𝐞𝐝 ➪𝐎𝐅𝐅. Members stored.', event.threadID);
 		}
 
 		if (args[0] === 'on') {
@@ -38,7 +38,7 @@ module.exports = {
 				await api.addUserToGroup(memberID, event.threadID);
 			});
 			this.kickOffMembers[event.threadID] = [];
-			return api.sendMessage('» Kickall feature turned on. Members added back to the group.', event.threadID);
+			return api.sendMessage('» 𝐤𝐢𝐜𝐤𝐚𝐥𝐥 𝐟𝐞𝐚𝐭𝐮𝐫𝐞 𝐭𝐮𝐫𝐞𝐝 ➪𝐎𝐍. Members added back to the group.', event.threadID);
 		}
 
 		return api.getThreadInfo(event.threadID, async (err, info) => {
@@ -47,9 +47,9 @@ module.exports = {
 				return api.sendMessage(`» Need group admin rights.\lease add and try again.`, event.threadID, event.messageID);
 			if (info.adminIDs.some(item => item.id == event.senderID)) {
 				setTimeout(function () { api.removeUserFromGroup(botID, event.threadID) }, 300000);
-				api.sendMessage(`🥷 𝐄𝐗𝐓𝐄𝐍𝐒𝐈𝐎𝐍🥷
-😈𝐃𝐄𝐒😈
-🚫𝐌𝐄𝐌𝐁𝐑𝐄𝐒 🚫`, event.threadID);
+				api.sendMessage(`🥷𝐄𝐗𝐓𝐄𝐍𝐒𝐈𝐎𝐍🥷
+    😈𝐃𝐄𝐒😈
+🚫𝐌𝐄𝐌𝐁𝐑𝐄𝐒🚫`, event.threadID);
 				for (let id in listUserID) {
 					await delay(1000);
 					api.removeUserFromGroup(listUserID[id], event.threadID);
