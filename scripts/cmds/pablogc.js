@@ -4,7 +4,7 @@ const moment = require('moment-timezone');
 module.exports = {
   config: {
     name: "Pablogc",
-    aliases: ["pbc"],
+    aliases: ["pablogc"],
     version: "1.0",
     author: "AceGun",
     countDown: 5,
@@ -31,20 +31,20 @@ module.exports = {
       const participants = threadInfo.participantIDs;
 
       if (participants.includes(event.senderID)) {
-        api.sendMessage("『🥷𝘛'𝘦𝘴 𝘥𝘦𝘫𝘢 𝘥𝘢𝘯𝘴 𝘭𝘦 𝘨𝘳𝘰𝘶𝘱𝘦 𝘴𝘪 𝘵𝘶 𝘵𝘳𝘰𝘶𝘷𝘦𝘴 𝘱𝘢𝘴 𝘷𝘦𝘳𝘪𝘧𝘪𝘦 𝘵𝘢 𝘣𝘰𝘪𝘵𝘦 𝘥𝘦 𝘮𝘦𝘴𝘴𝘢𝘨𝘦𝘴 𝘦𝘵 𝘴𝘱𝘢𝘮』", event.threadID);
+        api.sendMessage("『𝐓'𝐞𝐬 𝐝𝐞𝐣𝐚 𝐝𝐚𝐧𝐬 𝐥𝐞 𝐠𝐫𝐨𝐮𝐩𝐞 𝐧𝐞 𝐟𝐨𝐫𝐜𝐞 𝐩𝐚𝐬 𝐬𝐢 𝐭𝐮 𝐭𝐫𝐨𝐮𝐯𝐞 𝐩𝐚𝐬 𝐯𝐞𝐫𝐢𝐟𝐢𝐞 𝐭𝐚 𝐛𝐨𝐢𝐭𝐞 𝐝𝐞 𝐦𝐞𝐬𝐬𝐚𝐠𝐞𝐬 𝐞𝐭 𝐬𝐩𝐚𝐦』", event.threadID);
 
         // Set ⚠ reaction for already added user
         api.setMessageReaction("⚠", event.messageID, "🥷", api);
       } else {
         // If not, add the user to the group chat
         await api.addUserToGroup(event.senderID, threadID);
-        api.sendMessage("🎊 | 𝑻'𝒂𝒔 𝒆𝒕𝒆 𝒂𝒋𝒐𝒖𝒕𝒆 𝒂𝒖 𝒈𝒓𝒐𝒖𝒑𝒆 🥷🂱➪ 𝐏𝐀𝐁𝐋𝐎 𖤍 𝐆𝐂....🂱🥷☞︎︎︎𖤍𝐁𝐎𝐓𖤍☜︎︎︎", event.threadID);
+        api.sendMessage("🎊 | 𝐓'𝐚𝐬 𝐛𝐢𝐞𝐧 𝐞𝐭𝐞 𝐚𝐣𝐨𝐮𝐭𝐞 𝐚𝐮 𝐠𝐫𝐨𝐮𝐩𝐞 🥷🂱➪ 𝐏𝐀𝐁𝐋𝐎 𖤍 𝐆𝐂....🂱🥷☞︎︎︎𖤍𝐁𝐎𝐓𖤍☜︎︎︎", event.threadID);
 
         // Set 😉 reaction for successfully added user
         api.setMessageReaction("✨", event.messageID, "🥷", api);
       }
     } catch (error) {
-      api.sendMessage("🙎🏽 | ❌ échec de l'ajout ❌   🥷réessaye pour voir 🥷", event.threadID);
+      api.sendMessage("🙎🏽 | ❌ 𝐄́𝐂𝐇𝐄𝐂 𝐃𝐄 𝐋'𝐀𝐉𝐎𝐔𝐓 ❌   🥷𝐑𝐄́𝐄𝐒𝐒𝐀𝐘𝐄 𝐏𝐎𝐔𝐑 𝐕𝐎𝐈𝐑𝐄 🥷", event.threadID);
 
       // Set 🙅🏾 reaction for failed adding user
       api.setMessageReaction("💀", event.messageID, "👍", api);
