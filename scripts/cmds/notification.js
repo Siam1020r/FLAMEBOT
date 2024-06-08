@@ -43,7 +43,7 @@ module.exports = {
 		if (!args[0])
 			return message.reply(getLang("missingMessage"));
 		const formSend = {
-			body: `${getLang("notification")}\n────────────────\n${args.join(" ")}`,
+			body: `${getLang("notification")}\n✨━━━━━━━❪👑❫━━━━━━━✨\n${args.join(" ")}`,
 			attachment: await getStreamsFromAttachment(
 				[
 					...event.attachments,
