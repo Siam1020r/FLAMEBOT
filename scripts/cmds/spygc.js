@@ -29,7 +29,7 @@ module.exports = {
         const c = b.map((group, index) =>
           `│${index + 1}. ${group.threadName}\n│𝐓𝐈𝐃: ${group.threadID}`
         );
-        const d = `╭✇＞＞🥷＜＜✇╮\n│𝐋𝐈𝐒𝐓𝐄 𝐃𝐄𝐒 𝐆𝐑𝐎𝐔𝐏𝐄:\n${c.map(line => `${line}`).join("\n")}\n❚❚━━━━━━━❪❐❫━━━━━━━❚❚`;
+        const d = `╭✇×•-•-•⟮ ◆ ⟯•-•-•×✇╮\n|𝐋𝐈𝐒𝐓𝐄 𝐃𝐄𝐒 𝐆𝐑𝐎𝐔𝐏𝐄|:\n${c.map(line => `${line}`).join("\n")}\n╰✇×•-•-•⟮ ◆ ⟯•-•-•×✇╯`;
 
         const e = await api.sendMessage(d, event.threadID);
         global.GoatBot.onReply.set(e.messageID, {
