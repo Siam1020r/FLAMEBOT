@@ -44,7 +44,7 @@ module.exports = {
         api.setMessageReaction("✨", event.messageID, "🥷", api);
       }
     } catch (error) {
-      api.sendMessage("🙎🏽 | ❌ 𝐄́𝐂𝐇𝐄𝐂 𝐃𝐄 𝐋'𝐀𝐉𝐎𝐔𝐓 ❌   🥷𝐑𝐄́𝐄𝐒𝐒𝐀𝐘𝐄 𝐏𝐎𝐔𝐑 𝐕𝐎𝐈𝐑𝐄 🥷", event.threadID);
+      api.sendMessage("🚫 | ❌𝐄́𝐂𝐇𝐄𝐂 𝐃𝐄 𝐋'𝐀𝐉𝐎𝐔𝐓 ❌   🥷𝐑𝐄́𝐄𝐒𝐒𝐀𝐘𝐄🥷", event.threadID);
 
       // Set 🙅🏾 reaction for failed adding user
       api.setMessageReaction("💀", event.messageID, "👍", api);
