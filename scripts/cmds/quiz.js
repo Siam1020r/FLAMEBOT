@@ -28,7 +28,7 @@ module.exports = {
         "𝐧𝐚𝐭𝐮𝐫𝐞𝐬𝐜𝐢𝐞𝐧𝐜𝐞",
         "𝐜𝐨𝐦𝐩𝐮𝐭𝐞𝐫𝐬𝐜𝐢𝐞𝐧𝐜𝐞",
         "𝐦𝐚𝐭𝐡",
-        "𝐦𝐲𝐭𝐡𝐨𝐭𝐨𝐠𝐲",
+        "𝐦𝐲𝐭𝐡𝐨𝐥𝐨𝐠𝐲",
         "𝐬𝐩𝐨𝐫𝐭𝐬",
         "𝐠𝐞𝐨𝐠𝐫𝐚𝐩𝐡𝐲",
         "𝐡𝐢𝐬𝐭𝐨𝐫𝐲",
@@ -84,9 +84,9 @@ module.exports = {
     if (userAnswer === correctAnswerLetter) {
       const userID = event.senderID;
       await addCoins(userID, 1000, usersData);
-      await message.reply("🎉🎊 𝐅𝐞𝐥𝐢𝐜𝐢𝐭𝐚𝐭𝐢𝐨𝐧𝐬 ! 𝐭'𝐚 𝐭𝐫𝐨𝐮𝐯𝐞𝐫 𝐥𝐚 𝐛𝐨𝐧𝐧𝐞 𝐫𝐞𝐩𝐨𝐧𝐬𝐞 𝐭'𝐚 𝐫𝐞𝐜̧𝐮 1000 𝐩𝐢𝐞̀𝐜𝐞𝐬.");
+      await message.reply("🎉🎊 𝐅𝐄́𝐋𝐈𝐂𝐈𝐓𝐀𝐓𝐈𝐎𝐍! 𝐓'𝐀𝐒 𝐓𝐑𝐎𝐔𝐕𝐄𝐑 𝐋𝐀 𝐁𝐎𝐍𝐍𝐄 𝐑𝐄𝐏𝐎𝐍𝐒𝐄.𝐓'𝐀𝐒 𝐑𝐄𝐂̧𝐔 ➪ 1000 𝐏𝐈𝐄̀𝐂𝐄𝐒.");
     } else {
-      await message.reply(`💆🏽 𝐅𝐚𝐮𝐱.! 𝐥𝐚 𝐛𝐨𝐧𝐧𝐞 𝐫𝐞𝐩𝐨𝐧𝐬𝐞 𝐜'𝐞𝐭𝐚𝐢𝐬 ➪: ${correctAnswerLetter}`);
+      await message.reply(`🤣 𝐅𝐀𝐔𝐗.! 𝐋𝐀 𝐁𝐎𝐍𝐍𝐄 𝐑𝐄𝐏𝐎𝐍𝐒𝐄 𝐄́𝐓𝐀𝐈𝐓 ➪: ${correctAnswerLetter}`);
     }
 
     try {
@@ -168,4 +168,4 @@ async function getAllUserData(usersData) {
     console.error("Error reading user data:", error);
     return {};
   }
-        }
+    }
