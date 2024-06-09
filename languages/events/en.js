@@ -13,13 +13,13 @@ module.exports = {
 			session2: "noon",
 			session3: "afternoon",
 			session4: "evening",
-			leaveType1: "😕 -1 𝐃𝐚𝐧𝐬 𝐥𝐞 𝐠𝐫𝐨𝐮𝐩𝐞 𝐦𝐚𝐢𝐬 𝐥𝐚 𝐯𝐢𝐞 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐞 😌...😪",
+			leaveType1: " -1 𝐃𝐚𝐧𝐬 𝐥𝐞 𝐠𝐫𝐨𝐮𝐩𝐞 𝐦𝐚𝐢𝐬 𝐥𝐚 𝐯𝐢𝐞 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐞 🧍🏾...",
 			leaveType2: "𖤍..Tu dérange 😕 trop alors dégage  🚮..𖤍"
 		}
 	},
 	logsbot: {
 		text: {
-			title: "====== Bot𖤍logs ======",
+			title: "===== Bot 𖤍 logs =====",
 			added: "\n✅\nEvent: bot has been added to a new group\n- Added by: %1",
 			kicked: "\n❌\nEvent: bot has been kicked\n- Kicked by: %1",
 			footer: "\n- User ID: %1\n- Group: %2\n- Group ID: %3\n- Time: %4"
@@ -32,7 +32,7 @@ module.exports = {
 			session2: "noon",
 			session3: "afternoon",
 			session4: "evening",
-			welcomeMessage: "𝐌𝐞𝐫𝐜𝐢 𝐝𝐞 𝐦𝐚𝐯𝐨𝐢𝐫 𝐚𝐣𝐨𝐮𝐭𝐞𝐫 𝐝𝐚𝐧𝐬 𝐬𝐞 𝐠𝐫𝐨𝐮𝐩𝐞!\n𝐦𝐨𝐧 𝐩𝐫𝐞𝐟𝐢𝐱: %1\n𝐩𝐨𝐮𝐫 𝐯𝐨𝐢𝐫 𝐥𝐚 𝐥𝐢𝐬𝐭𝐞 𝐝𝐞 𝐦𝐞𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞, 𝐭𝐚𝐩𝐞 𝐣𝐮𝐬𝐭𝐞: %1help",
+			welcomeMessage: "𝐌𝐞𝐫𝐜𝐢 𝐝𝐞 𝐦𝐚𝐯𝐨𝐢𝐫 𝐚𝐣𝐨𝐮𝐭𝐞𝐫 𝐝𝐚𝐧𝐬 𝐬𝐞 𝐠𝐫𝐨𝐮𝐩𝐞!\n 𝐦𝐨𝐧 𝐩𝐫𝐞𝐟𝐢𝐱: %1\n 𝐩𝐨𝐮𝐫 𝐯𝐨𝐢𝐫 𝐥𝐚 𝐥𝐢𝐬𝐭𝐞 𝐝𝐞 𝐦𝐞𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞, 𝐭𝐚𝐩𝐞 𝐣𝐮𝐬𝐭𝐞: %1help",
 			multiple1: "you",
 			multiple2: "you guys"
 		}
