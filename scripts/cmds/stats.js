@@ -46,13 +46,16 @@ module.exports = {
 
       const ping = Date.now() - timeStart;
 
-      let pingStatus = "Not smooth throw your router, buddy";
+      let pingStatus = "🚫🚫🚫🚫🚫🚫🚫";
       if (ping < 400) {
         pingStatus = "Smooth like your tiny pussy";
       }
 
       // Assuming global.utils.getStreamFromURL(img) is correctly defined
-      const imgURL= "https://i.ibb.co/NnSmNPz/image.jpg";
+      const imgURL= "https://i.ibb.co/bgDPRX3/image.jpg"
+        "https://i.ibb.co/ZxRvQZd/image.jpg",
+          "https://i.ibb.co/RpXPdZz/image.jpg",
+          "https://i.ibb.co/4RdvPW4/image.jpg";
       const attachment = await global.utils.getStreamFromURL(imgURL); api.sendMessage({
         body: `☆☆𝐏𝐀𝐁𝐋𝐎☆☆ \────────\
 
