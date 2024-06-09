@@ -18,7 +18,7 @@ async function getAIResponse(input, userId, messageID) {
  { url: 'https://ai-chat-gpt-4-lite.onrender.com/api/hercai', params: { question: input } }
  ];
 
- let response = "━━━━━━❪❐❫━━━━━━ \n  ⚠︎ 𝐬𝐚𝐥𝐮𝐭 𝐦𝐨𝐢 𝐜'𝐞𝐬𝐭 >𝐏𝐀𝐁𝐋𝐎< 𝐚𝐥𝐥𝐞́ 𝐩𝐨𝐬𝐞 𝐦𝐨𝐢 𝐭'𝐚 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧....🥷\n━━━━━━❪❐❫━━━━━━";
+ let response = "━━━━━━❪❐❫━━━━━━ \n   ➪𝐒𝐀𝐋𝐔𝐓𖠌 𝐦𝐨𝐢 𝐜'𝐞𝐬𝐭 >𝐏𝐀𝐁𝐋𝐎< 𝐚𝐥𝐥𝐞́ 𝐩𝐨𝐬𝐞 𝐦𝐨𝐢 𝐭'𝐚 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧....✍︎\n━━━━━━❪❐❫━━━━━━";
  let currentIndex = 0;
 
  for (let i = 0; i < services.length; i++) {
@@ -76,8 +76,8 @@ const fonts = {
  if (messageContent.startsWith("ai")) {
  const input = messageContent.replace(/^ai\s*/, "").trim();
  const { response, messageID } = await getAIResponse(input, event.senderID, message.messageID);
- message.reply(`༈ ࿂┉༐⸙ 𝐏𝐀𝐁𝐋𝐎.....❍♱
- \n━━━━━━━━❪❐❫━━━━━━━━ \n$ {response}`, messageID);
+ message.reply(`༆𝐋𝐎𝐑𝐃 𝐏𝐀𝐁𝐋𝐎༆\n━━━━━━❪❐❫━━━━━━\n${response}
+ ━━━━━━❪❐❫━━━━━━`, messageID);
  }
  }
 };
