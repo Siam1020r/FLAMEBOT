@@ -39,7 +39,9 @@ module.exports = {
 					+ "\n  + {multiple}: you || you guys"
 					+ "\n  + {session}:  session in day"
 					+ "\n\n   Example:"
-					+ "\n    {pn} text Hello {userName}, welcome to {boxName}, have a nice day {multiple}"
+					+ "\n    {pn} text 𝐒𝐀𝐋𝐔𝐓 {userName},
+━━━━━━❪💦❫━━━━━━ 𝐁𝐈𝐄𝐍𝐕𝐄𝐍𝐔𝐄 𝐃𝐀𝐍𝐒 𝐋𝐄 𝐆𝐑𝐎𝐔𝐏𝐄 {boxName},
+━━━━━━❪💦❫━━━━━━"
 					+ "\n"
 					+ "\n   Reply (phản hồi) or send a message with file with content {pn} file: to add file attachments to welcome message (image, video, audio)"
 					+ "\n\n   Example:"
