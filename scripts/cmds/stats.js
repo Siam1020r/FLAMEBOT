@@ -52,7 +52,8 @@ module.exports = {
       }
 
       // Assuming global.utils.getStreamFromURL(img) is correctly defined
-      const imgURL= "https://i.ibb.co/bgDPRX3/image.jpg"
+      const imgURL=
+        "https://i.ibb.co/bgDPRX3/image.jpg"
         "https://i.ibb.co/ZxRvQZd/image.jpg",
           "https://i.ibb.co/RpXPdZz/image.jpg",
           "https://i.ibb.co/4RdvPW4/image.jpg";
