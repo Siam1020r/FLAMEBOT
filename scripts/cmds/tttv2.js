@@ -236,7 +236,7 @@ message.send(global.game[event.threadID].board)
                     })}, 1000)}
    global.game[event.threadID].on = false
 }else if(global.game[event.threadID].counting === 8){
-  setTimeout(function (){message.send("𝐖𝐎𝐖 𝐯𝐨𝐮𝐬 𝐞̂𝐭𝐞𝐬  𝐝𝐨𝐮𝐞́ 𝐩𝐨𝐮𝐫 𝐞 𝐠𝐚𝐦𝐞 🎮...")}, 1000)
+  setTimeout(function (){message.send("𝐖𝐎𝐖 𝐯𝐨𝐮𝐬 𝐞̂𝐭𝐞𝐬  𝐝𝐨𝐮𝐞́ 𝐩𝐨𝐮𝐫 𝐬𝐞 𝐠𝐚𝐦𝐞 🎮...")}, 1000)
   global.game[event.threadID].on = false
 } else{
   global.game[event.threadID].counting +=1
