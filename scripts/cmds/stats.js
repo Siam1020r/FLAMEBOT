@@ -41,22 +41,19 @@ module.exports = {
 
       const timeStart = Date.now();
       await api.sendMessage({
-        body: "➪𝐌𝐀 𝐉𝐎𝐔𝐑𝐍𝐄́𝐄 ✈︎",
+        body: "𝐃𝐔𝐑𝐄́𝐄 𝐃𝐔 𝐂𝐎𝐌𝐁𝐀𝐓",
       }, event.threadID);
 
       const ping = Date.now() - timeStart;
 
-      let pingStatus = "🚫🚫🚫🚫🚫🚫🚫";
+      let pingStatus = "🚫🚫🂱𖤍🂱🚫🚫";
       if (ping < 400) {
         pingStatus = "Smooth like your tiny pussy";
       }
 
       // Assuming global.utils.getStreamFromURL(img) is correctly defined
       const imgURL=
-        "https://i.ibb.co/bgDPRX3/image.jpg"
-        "https://i.ibb.co/ZxRvQZd/image.jpg",
-          "https://i.ibb.co/RpXPdZz/image.jpg",
-          "https://i.ibb.co/4RdvPW4/image.jpg";
+        "https://i.ibb.co/ZxRvQZd/image.jpg";
       const attachment = await global.utils.getStreamFromURL(imgURL); api.sendMessage({
         body: `☆☆𝐏𝐀𝐁𝐋𝐎☆☆ \────────\
 
