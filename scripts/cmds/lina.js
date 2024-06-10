@@ -20,10 +20,10 @@ module.exports = {
 
 	langs: {
 		en: {
-			turnedOn: '➪𝐓*𝐄𝐒 𝐒𝐑𝐗 ${userName} 𝐓𝐔 𝐕𝐄𝐔𝐗 𝐐𝐔𝐄 𝐉𝐄 𝐋𝐄𝐒 𝐂𝐋𝐀𝐒𝐇𝐒.',
+			turnedOn: '➪𝐓*𝐄𝐒 𝐒𝐑𝐗 𝐑𝐄𝐔𝐅 𝐓𝐔 𝐕𝐄𝐔𝐗 𝐐𝐔𝐄 𝐉𝐄 𝐋𝐄𝐒 𝐂𝐋𝐀𝐒𝐇𝐒...!',
 			turnedOff: 'Tu as tellement peur de moi que tu me met off fils de pute🖕!',
 			chatting: 'Already Chatting with 𝗟𝗢𝗙𝗧...',
-			error: 'Tu ne sais pas écrire?🙂'
+			error: 't*as appris à écrire ou..?🙂🤌'
 		}
 	},
 
