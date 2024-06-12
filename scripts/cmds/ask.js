@@ -18,7 +18,7 @@ async function getAIResponse(input, userId, messageID) {
  { url: 'https://ai-chat-gpt-4-lite.onrender.com/api/hercai', params: { question: input } }
  ];
 
- let response = "━━━━━━❪❐❫━━━━━━ \n   ➪𝐒𝐀𝐋𝐔𝐓𖠌 𝐦𝐨𝐢 𝐜'𝐞𝐬𝐭 >𝐏𝐀𝐁𝐋𝐎< 𝐚𝐥𝐥𝐞́ 𝐩𝐨𝐬𝐞 𝐦𝐨𝐢 𝐭'𝐚 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧....✍︎\n━━━━━━❪❐❫━━━━━━";
+ let response = "━━━━━━❪❐❫━━━━━━ \n𝐘𝐨, 𝐜'𝐞𝐬𝐭 𝐪𝐮𝐨𝐢 𝐭'𝐚 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧 𝐫𝐞𝐮𝐟 𝐚𝐥𝐥𝐞́ 𝐩𝐨𝐬𝐞 𝐥𝐚̀ 𝐦𝐨𝐢....✍︎\n━━━━━━❪❐❫━━━━━━";
  let currentIndex = 0;
 
  for (let i = 0; i < services.length; i++) {
