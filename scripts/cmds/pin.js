@@ -7,7 +7,7 @@ module.exports = {
     name: "pin",
     aliases: ["pinterest"],
     version: "1.0.0",
-    author: "Saïd z",
+    author: "kshitiz",
     role: 0,
     countDown: 10,
     shortDescription: {
