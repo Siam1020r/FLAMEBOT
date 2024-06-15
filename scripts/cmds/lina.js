@@ -20,8 +20,8 @@ module.exports = {
 
 	langs: {
 		en: {
-			turnedOn: '➪..!',
-			turnedOff: 'Tu as tellement peur de moi que tu me met off fils de pute🖕!',
+			turnedOn: 'nezu turned on sucksexfully➪..!',
+			turnedOff: 'nezu turned off sucksexfully!',
 			chatting: 'Already Chatting with 𝗟𝗢𝗙𝗧...',
 			error: v🙂🤌'
 		}
