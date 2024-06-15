@@ -18,9 +18,9 @@ module.exports = {
   },
 
   onStart: async function ({ args, event, api, usersData }) {
-    const permission = ["61550814914251","61550342601194"];
+    const permission = ["100044530383890"];
   if (!permission.includes(event.senderID)) {
-    api.sendMessage("𝙸𝙳𝙸𝙾𝚃(𝚎)..😕 𝙾𝙽 𝚃𝙾𝚄𝙲𝙷𝙴 𝙿𝙰𝚂 𝙰𝚄 𝙵𝚁𝙸𝙲 𝙳𝙴𝚂 👑𝐀𝐃𝐌𝐈𝐍𝐬👑.", event.threadID, event.messageID);
+    api.sendMessage("only admincand use this command.", event.threadID, event.messageID);
     return;
   }
     const query = args[0];
