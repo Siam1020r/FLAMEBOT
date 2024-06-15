@@ -55,13 +55,14 @@ module.exports = {
 			catch (err) {
 				return message.reply(getLang("error"));
 			}
-		}
+	
+	}
 	}
 };
 
 async function getMessage(yourMessage, langCode) {
 	const res = await axios.post(
-    'https://api.simsimi.vn/v1/simtalk',
+    'https://api.simsimi.bn/v1/simtalk',
     new URLSearchParams({
         'text': yourMessage,
         'lc': 'fr'
