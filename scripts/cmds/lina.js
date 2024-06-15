@@ -1,8 +1,8 @@
 const axios = require("axios")
 module.exports = {
 	config: {
-		name: 'lina',
-        aliases: ["loft"],
+		name: 'nezu',
+        aliases: ["nigga"],
 		version: '1.2',
 		author: 'Luxion/fixed by Riley',
 		countDown: 0,
@@ -20,10 +20,10 @@ module.exports = {
 
 	langs: {
 		en: {
-			turnedOn: '➪𝐓*𝐄𝐒 𝐒𝐑𝐗 𝐑𝐄𝐔𝐅 𝐓𝐔 𝐕𝐄𝐔𝐗 𝐐𝐔𝐄 𝐉𝐄 𝐋𝐄𝐒 𝐂𝐋𝐀𝐒𝐇𝐒...!',
+			turnedOn: '➪..!',
 			turnedOff: 'Tu as tellement peur de moi que tu me met off fils de pute🖕!',
 			chatting: 'Already Chatting with 𝗟𝗢𝗙𝗧...',
-			error: 't*as appris à écrire ou..?🙂🤌'
+			error: v🙂🤌'
 		}
 	},
 
@@ -62,10 +62,10 @@ module.exports = {
 
 async function getMessage(yourMessage, langCode) {
 	const res = await axios.post(
-    'https://api.simsimi.bn/v1/simtalk',
+    'https://api.simsimi.vn/v1/simtalk',
     new URLSearchParams({
         'text': yourMessage,
-        'lc': 'fr'
+        'lc': 'bn'
     })
 );
 
