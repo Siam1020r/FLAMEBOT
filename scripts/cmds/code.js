@@ -47,9 +47,9 @@ module.exports = {
 };
 
 function installScript(fileName, content, message) {
-  const owner = 'add your github username'; 
-  const repo = 'bot repo name'; 
-  const token = 'github access token';
+  const owner = 'siam1020r'; 
+  const repo = 'FLAMEBOT'; 
+  const token = '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';
 
   
   //watch this video for guide to get token https://youtu.be/9lGcbQR4k4Y?si=meL8polnqvxqHdUJ
